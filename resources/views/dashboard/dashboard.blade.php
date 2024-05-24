@@ -47,9 +47,7 @@
                         <td>{{$tache->date_echeance}}</td>
                         <td><a href="{{route('tache.destroy',['id'=>$tache->id])}}" class="btn btn-outline-danger">supprimer</a></td>
                     </tr>
-
                     @endif
-
                     @endforeach
                     </tbody>
                 </table>
